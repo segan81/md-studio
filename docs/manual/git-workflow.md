@@ -4,6 +4,14 @@
 
 <!-- MARK: GIT-PROTECTION-START -->
 
+## Paso 0. Estrategia Oficial
+```
+main
+│
+└── develop
+      │
+      └── feature/sprint-XX-nombre
+```
 ## Paso 1. Verificar el estado
 
 ```bash

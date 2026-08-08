@@ -128,6 +128,32 @@ md-studio/
 
 ---
 
+## Workflow
+```
+Issue
+   │
+   ▼
+feature/sprint-XX
+   │
+   ▼
+Commit
+   │
+   ▼
+Push
+   │
+   ▼
+Pull Request
+   │
+   ▼
+Review
+   │
+   ▼
+Merge → develop
+   │
+   ▼
+Delete Feature Branch
+```
+
 ## Instalación
 
 ```bash
