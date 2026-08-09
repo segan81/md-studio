@@ -5,18 +5,21 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "lit": "^3.3.3",
-    "@md-studio/md-engine": "workspace:*"
+    "@md-studio/md-engine": "workspace:*",
+    "lit": "^3.3.3"
   },
   "devDependencies": {
+    "@crxjs/vite-plugin": "^2.7.1",
+    "@types/chrome": "^0.2.5",
     "typescript": "~6.0.2",
     "vite": "^8.2.0"
   },
-    "files": [
+  "files": [
     "dist"
   ],
   "exports": {

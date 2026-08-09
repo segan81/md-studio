@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "MD Studio",
+  "short_name": "MD Studio",
+  "description": "Modern Markdown Viewer for Chromium browsers.",
+  "version": "0.1.0",
+
+  "minimum_chrome_version": "120",
+
+  "background": {
+    "service_worker": "src/background/service-worker.ts",
+    "type": "module"
+  },
+
+  "action": {
+    "default_title": "MD Studio"
+  },
+
+  "permissions": [],
+
+  "host_permissions": []
+}
